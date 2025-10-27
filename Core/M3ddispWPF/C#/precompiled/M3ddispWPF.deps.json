@@ -1,0 +1,116 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "M3ddispWPF/1.0.0": {
+        "dependencies": {
+          "MILApplicationLibrary": "1.0.0",
+          "Matrox.MatroxImagingLibrary": "10.70.963",
+          "Matrox.MatroxImagingLibrary.WPF": "10.70.963"
+        },
+        "runtime": {
+          "M3ddispWPF.dll": {}
+        }
+      },
+      "Matrox.MatroxImagingLibrary/10.70.963": {
+        "runtime": {
+          "lib/net6.0/Matrox.MatroxImagingLibrary.dll": {
+            "assemblyVersion": "10.70.963.1085",
+            "fileVersion": "10.70.963.1085"
+          }
+        }
+      },
+      "Matrox.MatroxImagingLibrary.WPF/10.70.963": {
+        "dependencies": {
+          "Matrox.MatroxImagingLibrary": "10.70.963"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Matrox.MatroxImagingLibrary.WPF.dll": {
+            "assemblyVersion": "10.70.963.1085",
+            "fileVersion": "10.70.963.1085"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53105"
+          }
+        }
+      },
+      "MILApplicationLibrary/1.0.0": {
+        "dependencies": {
+          "Matrox.MatroxImagingLibrary": "10.70.963",
+          "System.Drawing.Common": "8.0.0"
+        },
+        "runtime": {
+          "MILApplicationLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "M3ddispWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Matrox.MatroxImagingLibrary/10.70.963": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-07J95ZEmCErI0ZarhPAX5Pso1lUvUvrLwP6Cl1RbqdtUkOZTAJ3vOyoVUIqG5PJo2djZQE4ntS0j4d4wU6cZnA==",
+      "path": "matrox.matroximaginglibrary/10.70.963",
+      "hashPath": "matrox.matroximaginglibrary.10.70.963.nupkg.sha512"
+    },
+    "Matrox.MatroxImagingLibrary.WPF/10.70.963": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x/XhmaImgRko0e9sFZxLSiMiwwLc0b2KxYbnghvl2gjfo40tIAn2EkuPagDvXjK26I7fo3K/WjgHYTFnwiTHZg==",
+      "path": "matrox.matroximaginglibrary.wpf/10.70.963",
+      "hashPath": "matrox.matroximaginglibrary.wpf.10.70.963.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JkbHJjtI/dWc5dfmEdJlbe3VwgZqCkZRtfuWFh5GOv0f+gGCfBtzMpIVkmdkj2AObO9y+oiOi81UGwH3aBYuqA==",
+      "path": "system.drawing.common/8.0.0",
+      "hashPath": "system.drawing.common.8.0.0.nupkg.sha512"
+    },
+    "MILApplicationLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

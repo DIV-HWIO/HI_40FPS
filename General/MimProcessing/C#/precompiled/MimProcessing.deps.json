@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MimProcessing/1.0.0": {
+        "dependencies": {
+          "Matrox.MatroxImagingLibrary": "10.70.963"
+        },
+        "runtime": {
+          "MimProcessing.dll": {}
+        }
+      },
+      "Matrox.MatroxImagingLibrary/10.70.963": {
+        "runtime": {
+          "lib/net6.0/Matrox.MatroxImagingLibrary.dll": {
+            "assemblyVersion": "10.70.963.1085",
+            "fileVersion": "10.70.963.1085"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MimProcessing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Matrox.MatroxImagingLibrary/10.70.963": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-07J95ZEmCErI0ZarhPAX5Pso1lUvUvrLwP6Cl1RbqdtUkOZTAJ3vOyoVUIqG5PJo2djZQE4ntS0j4d4wU6cZnA==",
+      "path": "matrox.matroximaginglibrary/10.70.963",
+      "hashPath": "matrox.matroximaginglibrary.10.70.963.nupkg.sha512"
+    }
+  }
+}
